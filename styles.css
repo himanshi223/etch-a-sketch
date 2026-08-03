@@ -1,0 +1,15 @@
+.grid-container {
+    height: 800px;
+    width: 800px;
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grid-container div{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+
