@@ -10,6 +10,10 @@
 .grid-container div{
     height: 50px;
     width: 50px;
+    background-color: lightblue;
+}
+
+.hovered{
     background-color: blue;
 }
 
