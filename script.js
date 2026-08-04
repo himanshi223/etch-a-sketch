@@ -7,8 +7,8 @@ function createGrid(side){
         return;
     for(i=0;i<side*side;i++){
         const div = document.createElement("div");
-        div.style.width = `${960/side}px`;
-        div.style.height = `${960/side}px`;
+        div.style.width = `${800/side}px`;
+        div.style.height = `${800/side}px`;
         container.appendChild(div);
     }
 }
@@ -24,7 +24,6 @@ container.addEventListener("mouseover",(e)=>{
         currentOpacity += 0.1;
         e.target.style.opacity = `${currentOpacity}`;
     }
-    console
 });
 
 changeButton.addEventListener("click",(e)=>{
