@@ -1,7 +1,6 @@
 .grid-container {
-    height: 960px;
+    max-height: 960px;
     width: 960px;
-    overflow: hidden;
     background-color: pink;
     display: flex;
     flex-wrap: wrap;
@@ -9,8 +8,6 @@
 
 .grid-container div{
     background-color: lightblue;
-    height: 60px;
-    width: 60px;
 }
 
 .change-grid {
