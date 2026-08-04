@@ -17,5 +17,5 @@
 }
 
 .grid-container .hovered{
-    background-color: blue;
+    opacity: 0.1;
 }

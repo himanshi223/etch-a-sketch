@@ -16,11 +16,16 @@ function createGrid(side){
 createGrid(16);
 
 //the mechanism to draw
-
 container.addEventListener("mouseover",(e)=>{
     e.target.classList.add("hovered");
-})
-
+    e.target.style.backgroundColor=`rgb(${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)})`;
+    let currentOpacity = +e.target.style.opacity;
+    if(currentOpacity<1){
+        currentOpacity += 0.1;
+        e.target.style.opacity = `${currentOpacity}`;
+    }
+    console
+});
 
 changeButton.addEventListener("click",(e)=>{
     const squares = prompt("Number of squares per side(Enter a value less than 100): ",16);
